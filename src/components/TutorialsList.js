@@ -132,8 +132,8 @@ const TutorialsList = () => {
             </div> */}
 
             <Link
-              to={"/post/" + currentTutorial.id}
-              className="badge badge-warning"
+              to={"/tutorials/" + currentTutorial.id}
+              className="btn btn-warning"
             >
               Edit
             </Link>
